@@ -1,0 +1,13 @@
+What is a gitignore file and what should it include for a Java project?
+-Basically git ignore file tells what all files that has to be ignored, the files that should not be shared to everyone or the files that are not meant to be modified.
+
+What does fast-forward in Git mean?
+A fast-forward is what Git does when you merge or rebase against a branch that is simply ahead the one you have checked-out. Given the following branch setup: You've got both branches referencing the same commit.It simply updates the master branch to reference the same commit that feature does.
+
+
+Why should you have different branches?
+Git offers a feature referred to as a worktree, and what it does is allow you to have multiple branches running at the same time. It does this by creating a new directory for you with a copy of your git repository that is synced between the two directories where they are stored.
+
+
+In a project how many remote Git repositories do you usually have?
+You can have as many remotes as you want, but you can only have one remote named "origin". The remote called "origin" is not special in any way, except that it is the default remote created by Git when you clone an existing repository.
